@@ -1,3 +1,4 @@
 # Predict-Taxi-Fares-with-Random-Forests-in-R
 
-In this project, we will analyze a random sample of 49999 New York journeys made in 2013
+In this project,  analyzed a random sample of 49999 New York journeys made in 2013. Use regression trees and random forests to build a model that can predict the locations and times when the biggest fares can be earned.  Taxi dataset contains 49999 records.  The taxi dataset contains the times and price of a large number of taxi trips. Importantly we also get to know the location, the longitude and latitude, where the trip was started. Cleaned the data  by dropping any journeys with zero fares and zero tips and created the total variable as the log sum of fare and tip.  While the dataset contains taxi trips from all over New York City, the bulk of the trips are to and from Manhattan.  Reduced the data to taxi trips starting in Manhattan.  Manhattan is bounded by the rectangle with 
+latitude from 40.70 to 40.83 and longitude from -74.025 to -73.93 .  Visualized the data  where in Manhattan people tend to start their taxi journeys. The map  showed that the journeys are highly concentrated in the business and tourist areas. 
